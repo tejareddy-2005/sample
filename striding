@@ -1,0 +1,31 @@
+Python 3.11.8 (tags/v3.11.8:db85d51, Feb  6 2024, 22:03:32) [MSC v.1937 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> #striding
+>>> a="data science"
+>>> a[::]
+'data science'
+>>> a[::1]
+'data science'
+>>> a[::2]
+'dt cec'
+>>> a[::3]
+'dacn'
+>>> a[::4]
+'d e'
+>>> a="teja reddy"
+>>> a[::2]
+'tj ed'
+>>> a[::3]
+'taey'
+>>> a[::11]
+'t'
+>>> a="python course"
+>>> a[-1:-10:-2]
+'ero o'
+>>> a[-3:-13:-4]
+'r t'
+>>> a[-5:-11:-3]
+'on'
+>>> a="cloud computing"
+>>> a[::5]
+'c u'
